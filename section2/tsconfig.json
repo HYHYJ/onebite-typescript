@@ -4,6 +4,8 @@
     "module": "ESNext",
     "outDir": "dist",
     "strict": true,
+    //null 값을 엄격하게 검사
+    // "strictNullChecks": false,
     "moduleDetection": "force",
     "moduleResolution": "node"
   },
