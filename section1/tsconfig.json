@@ -5,7 +5,13 @@
     //컴파일 js파일이 저장될 폴더명
     "outDir": "dist",
     // 타입 엄격하게 검사하기
-    "strict": true
+    "strict": true,
+    //모듈을 각각 독립적으로 만들어줌
+    "moduleDetection": "force"
+  },
+  // ts 노드은 Es모듈을 해석할 수 있게
+  "ts-node": {
+    "esm": true
   },
   //"src" 안에있는 파일을 한방에 컴파일해라
   // -> 터미널에 tsc만 입력하면 자동으로 컴파일 완료
