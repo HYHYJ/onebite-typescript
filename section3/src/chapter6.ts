@@ -56,7 +56,7 @@ let cat = {
 type Post = {
     title: string;
     author?: string;
-};\
+};
 
 let post : Post = {
     title: "게시글",
